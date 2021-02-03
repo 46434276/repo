@@ -5,7 +5,7 @@ spring:
     name: edu-course-boot
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.249.81:3306/edu_course?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://192.168.204.141:3306/edu_course?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: 123123
   redis:
