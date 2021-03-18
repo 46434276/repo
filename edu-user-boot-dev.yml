@@ -1,13 +1,16 @@
 server:
-  port: 80
+  port: 8002
 spring:
   application:
     name: edu-user-boot
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.204.141:3306/edu_user?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: 123123
+  redis:
+    host: 192.168.204.141
+    port: 6379
 eureka:
   client:
     service-url:
