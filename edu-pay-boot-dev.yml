@@ -1,5 +1,5 @@
 server:
-  port: 8004
+  port: 8006
 spring:
   application:
     name: edu-pay-boot
