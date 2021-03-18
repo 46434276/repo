@@ -1,10 +1,10 @@
 server:
-  port: 8002
+  port: 8004
 spring:
   application:
     name: edu-course-boot
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.204.141:3306/edu_course?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: 123123
