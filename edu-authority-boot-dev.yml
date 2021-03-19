@@ -22,7 +22,7 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
 ali:
   sms:
-    signName: 拉勾教育通知
-    templateCode: SMS_212580052
-    assessKeyId: LTAI4GA5m3568JTc91khU8BJ
-    assessKeySecret: aUZOlYwWq9zz8gIOIZj7VQJ7qZJu5k
+    signName: 老孙通知
+    templateCode: SMS_666
+    assessKeyId: x
+    assessKeySecret: y
